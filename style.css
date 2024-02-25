@@ -1,0 +1,31 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+#container {
+	text-align: center;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+button {
+	background-color: red;
+	border-style: outset;
+	font-size: 24px;
+	font-family: times new roman;
+	transition: transform 0.3s, color 0.3s, background-color 0.3s;
+}
+
+button:hover {
+	transform: translateY(-10px);
+}
+
+.p3 {
+	color: gray;
+}
